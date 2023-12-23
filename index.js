@@ -54,7 +54,7 @@ var users = [{
 
 app.use(express.json());
 
-
+//can callback multiple function cb1,cb2, (req,res)
 app.get("/", (req,res) => {
     const johnKidneys = users[0].kidneys
     const numberOfKidneys = johnKidneys.length;
